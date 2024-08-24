@@ -1,18 +1,19 @@
 {
   "name": "mongo-signup",
   "version": "1.0.0",
-  "description": "",
+  "description": "A description of your project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "mongoose": "^8.4.1"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^4.10.0"
   }
 }
