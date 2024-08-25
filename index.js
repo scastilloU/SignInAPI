@@ -8,7 +8,7 @@ const PORT = 4001;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set('view engine', 'ejs'); // Using EJS as template engine
+app.set('view engine', 'ejs');  // Using EJS as template engine
 
 // MongoDB Connection
 mongoose.connect('mongodb+srv://user1:Welcome1@clusterscl.rrlr6.mongodb.net/?retryWrites=true&w=majority&appName=ClusterSCL', {
