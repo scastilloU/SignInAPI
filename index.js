@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const User = require('./models/User');
 
 const app = express();
-const PORT = 6001;
+const PORT = 6002;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
